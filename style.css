@@ -5,6 +5,19 @@
     font-weight: normal;
 }
 
+body {
+    background-color: #eee;
+    color: #111;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
 }
@@ -130,4 +143,40 @@ header a {
 
 #banner-content #banner-img small a {
     color: #eee;
+}
+
+#showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
+
+#showcase-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 600px;
+    margin: 30px 0;
+}
+
+#showcase-list .showcase-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#showcase-list .showcase-item .showcase-icon {
+    border: 2px solid #111;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+#showcase-list .showcase-item h6 {
+    font-size: 1.1rem;
+    margin: 10px 0;
 }
